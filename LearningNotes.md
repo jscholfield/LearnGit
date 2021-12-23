@@ -1,6 +1,6 @@
 # Notes Scratch Pad for use studying Git
 
-## Day 1
+## Night 1
 
 To keep it simple I'm using the following tools.
 
@@ -20,6 +20,14 @@ I used git commit . -m "initial commit" to commit the files and found I must put
 
 The video I am watching on this is Git & GitHub Crash Course For Beginners. Brad Traversy went into using .gitignore at this stage but that isn't of interest to me right now.
 
-## Day 2
+## Night 2
 
-Tonight I listening to a different tutorial video called Git Tutorial for Beginners - Git and GitHub Fundamentals for Beginners. I'd like to get as far as pushing my project to GitHub tonight. 
+Tonight I listening to a different tutorial video called Git Tutorial for Beginners - Git and GitHub Fundamentals for Beginners. I'd like to get as far as pushing my project to GitHub tonight.
+
+Didn't get there on night two. I went into the rabbit hole of authentication to github and gitlab for the push. For some reason this led me to learning about SSH but when I finally kept at that long enough for things to make sense I figured out that is out now on github.
+
+I kept on about this for a couple days as life intervened. I still don't fully have my head around it but did successfully use a Github Personal Access Token as my password for a push. I pushed my local repo to github. I created the repo on github to be the destination, used git add and commit to get ready for the push.
+
+I studied using branches but am still a bit confused. Mainly I don't know whether to use Master or Main or both. I've seen both master and main as the default initial branch. I've seen both recommended. I think Github defaults to main even though master seems more logical to me. The repo housing this document has both. I created main when creating the repo in GitHub but it has both from my push, I think.
+
+I think I understand using .gitignore but haven't set it up in this repo for now. 
